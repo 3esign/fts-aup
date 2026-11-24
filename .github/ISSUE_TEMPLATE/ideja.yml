@@ -1,0 +1,18 @@
+name: "Predlog teme ili pitanja / Topic or research idea"
+description: "Predloži temu za semestralni rad, istraživačko pitanje ili referencu za Oblak ideja"
+title: "[Ideja] "
+labels: ["ideja"]
+body:
+  - type: input
+    id: naslov
+    attributes:
+      label: "Kratak naziv teme ili pitanja"
+    validations:
+      required: true
+  - type: textarea
+    id: obrazlozenje
+    attributes:
+      label: "Kontekst, lokacija ili literatura"
+      description: "Zašto je ova tema važna, na koju lokaciju ili problem se odnosi i koje izvore planirate da proverite?"
+    validations:
+      required: true

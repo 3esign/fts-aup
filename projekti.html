@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="sr-Latn">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Projekti i predaja — Arhitektura Unutrašnjih Prostora · FTS Travnik</title>
+  <meta name="description" content="Faze semestralnog projekta, Dnevnik i predaja.">
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="module" src="assets/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Pređi na sadržaj</a>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <img src="assets/mark.svg" alt="" width="34" height="34">
+      <span>Arhitektura<br>Unutrašnjih Prostora</span>
+    </a>
+    <nav class="main-nav" aria-label="Glavna navigacija">
+      <a href="index.html">Naslovna</a>
+      <a href="odrzano.html">Održano</a>
+      <a href="sledeci.html">Sledeći čas</a>
+      <a href="literatura.html">Literatura</a>
+      <a href="projekti.html" aria-current="page">Projekti</a>
+      <a href="oblak.html">Oblak ideja</a>
+    </nav>
+    <div class="header-actions">
+      <button id="lang-toggle" class="lang-btn" type="button" data-lang="sr" hidden>English</button>
+    </div>
+  </header>
+  <div class="course-band">
+    <p class="course-line">
+      <strong id="band-title">Arhitektura Unutrašnjih Prostora</strong>
+      <span>Šifra: 04.143-M</span>
+      <span id="band-inst">Univerzitet u Travniku · Fakultet za tehničke studije (FTS)</span>
+      <span id="band-level">Diplomski studij (II ciklus) · II godina · III semestar · 7 ECTS · 2P+1V+2S (189 sati)</span>
+    </p>
+  </div>
+  <main id="main" class="shell" tabindex="-1">
+    <section class="page-top">
+      <div>
+        <p class="eyebrow">Platforma za studentske projekte</p>
+        <h1>Projekti, faze i predaja.</h1>
+        <p class="lede">Jasan tok izrade semestralnog projekta kroz pet kontrolnih tačaka, uputstvo za Dnevnik i javno deljenje radnih faza preko GitHub-a.</p>
+        <div class="actions">
+          <a class="button accent" href="https://github.com/3esign/fts-aup/issues/new?template=predaja.yml">Podeli fazu projekta (GitHub Issue) ↗</a>
+          <a class="button secondary" href="https://github.com/3esign/fts-aup/issues/new?template=ideja.yml">Predloži temu ili pitanje ↗</a>
+        </div>
+      </div>
+      <div class="thesis">
+        <p class="eyebrow">Pravilo privatnosti i zvanične predaje</p>
+        <p>Javni GitHub repozitorijum služi za uputstva, otvorenu razmenu projekata i galeriju odobrenih faza. Zvanične ocene i lični kontakti ostaju isključivo na fakultetskoj DL platformi.</p>
+      </div>
+    </section>
+
+    <section class="two-col">
+      <div>
+        <p class="eyebrow">Pet faza semestralnog rada</p>
+        <h2>Kontrolne tačke projekta</h2>
+        <ol class="stage-list">
+          <li><span class="stage-num">01</span><div><h3>01 — Analiza prostora, korisnika i atmosfere</h3><p>Snimak postojećeg stanja, čulna i fenomenološka analiza, programski zadatak i inicijalni dijagram odnosa.</p></div></li>
+          <li><span class="stage-num">02</span><div><h3>02 — Koncept i idejno rešenje (Parcijalni I)</h3><p>Jasno razdvajanje glavnog koncepta od pojedinačnih ideja; prostorna organizacija, kretanje i svetlosni scenario.</p></div></li>
+          <li><span class="stage-num">03</span><div><h3>03 — Materijalna tabla i ergonomska provera</h3><p>Izbor prirodnih i savremenih materijala (taktilnost, akustika, održivost) i provera mera po Neufertu i univerzalnom dizajnu.</p></div></li>
+          <li><span class="stage-num">04</span><div><h3>04 — Arhitektonski detalji i instalacije</h3><p>Karakteristični preseci i spojevi materijala (pod–zid–plafon–stolarija) u razmeri 1:20 / 1:10 uz integraciju rasvete i instalacija.</p></div></li>
+          <li><span class="stage-num">05</span><div><h3>05 — Finalna prezentacija i odbrana</h3><p>Kompletna tehnička dokumentacija, fotorealistični prikazi, fizički uzorci/maketa i usmena odbrana.</p></div></li>
+        </ol>
+      </div>
+      <div class="card card-accent">
+        <p class="eyebrow">Lična kontrolna lista studenta</p>
+        <h2>Provera pre predaje faze</h2>
+        <p class="muted">Stanje ove liste čuva se samo lokalno u vašem pregledaču.</p>
+        <ul class="check-list">
+          <li><label><input type="checkbox" data-check-id="dnevnik"><span>Nedeljni Dnevnik je dopunjen novim skicama, crtežima ili beleškama.</span></label></li>
+          <li><label><input type="checkbox" data-check-id="razmera"><span>Svaki crtež i prilog ima jasnu razmeru, orijentaciju i čitljiv potpis.</span></label></li>
+          <li><label><input type="checkbox" data-check-id="izvori"><span>Svi korišćeni tekstovi, podaci i fotografije imaju naveden izvor.</span></label></li>
+          <li><label><input type="checkbox" data-check-id="privatnost"><span>U javnom prilogu nema privatnih brojeva telefona, mejlova ni tuđih podataka bez dozvole.</span></label></li>
+          <li><label><input type="checkbox" data-check-id="format"><span>Fajlovi su optimizovani za čitanje i štampu (PDF/A3 ili čiste slike bez viška megabajta).</span></label></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <span id="footer-prof">Profesor: doc. dr Semir Poturak</span>
+    <span>Fakultet za tehničke studije · Univerzitet u Travniku · <a href="https://github.com/3esign/fts-aup">GitHub repozitorijum</a></span>
+  </footer>
+</body>
+</html>

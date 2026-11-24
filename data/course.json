@@ -1,0 +1,291 @@
+{
+  "slug": "fts-aup",
+  "code": "04.143-M",
+  "shortName": "Arhitektura<br>Unutrašnjih Prostora",
+  "titleSr": "Arhitektura Unutrašnjih Prostora",
+  "titleEn": "Interior Architecture",
+  "subtitleSr": "Percepcija, svetlo, materijalizacija, ergonomija i arhitektonski detalj u oblikovanju unutrašnjeg prostora.",
+  "subtitleEn": "Perception, light, materiality, ergonomics, and architectural detail in shaping interior space.",
+  "levelSr": "Diplomski studij (II ciklus) · II godina · III semestar · 7 ECTS · 2P+1V+2S (189 sati)",
+  "levelEn": "Graduate (Cycle II) · Year 2 · Semester 3 · 7 ECTS · 2L+1E+2S (189 hours)",
+  "statusSr": "Izborni predmet · Preduslov: nema",
+  "statusEn": "Elective course · Prerequisite: none",
+  "theme": {
+    "paper": "#f7f5f0",
+    "white": "#ffffff",
+    "ink": "#231f1c",
+    "muted": "#615850",
+    "line": "#d1c9be",
+    "wash": "#eee9df",
+    "accent": "#915f22",
+    "accentInk": "#ffffff",
+    "signal": "#f2e1c4"
+  },
+  "markSvg": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 36 36\" fill=\"none\"><rect x=\"2\" y=\"2\" width=\"32\" height=\"32\" stroke=\"#231f1c\" stroke-width=\"2\"/><rect x=\"8\" y=\"8\" width=\"20\" height=\"20\" stroke=\"#915f22\" stroke-width=\"1.8\"/><path d=\"M8 28L16 20H28\" stroke=\"#231f1c\" stroke-width=\"1.5\"/><line x1=\"16\" y1=\"8\" x2=\"16\" y2=\"20\" stroke=\"#231f1c\" stroke-width=\"1.5\"/></svg>",
+  "goalSr": "Sveobuhvatno razumevanje i primena principa arhitekture unutrašnjih prostora — od fenomenologije, atmosfere, svetla i materijalizacije do ergonomije, tehničkih instalacija, preciznog arhitektonskog detalja i savremenih BIM/AI alata.",
+  "goalEn": "Comprehensive understanding and application of interior architecture principles — from phenomenology, atmosphere, light, and materiality to ergonomics, building systems, architectural detailing, and modern BIM/AI workflows.",
+  "software": [
+    "AutoCAD (osnove, preseci i detalji)",
+    "ArchiCAD ili Revit (BIM za enterijer)",
+    "Adobe Creative Suite (Photoshop, InDesign)",
+    "Enscape / V-Ray / Twinmotion (3D vizuelizacija i svetlo)"
+  ],
+  "assessment": [
+    {
+      "nameSr": "Aktivno učešće na nastavi, vežbama i pin-up diskusijama",
+      "nameEn": "Active participation & pin-up reviews",
+      "points": "0 – 10"
+    },
+    {
+      "nameSr": "Semestralni projektni zadatak (predaja po fazama)",
+      "nameEn": "Semester design project (phased delivery)",
+      "points": "0 – 40"
+    },
+    {
+      "nameSr": "Parcijalni ispit (teorija i prezentacija koncepta)",
+      "nameEn": "Midterm (theory & concept presentation)",
+      "points": "0 – 20"
+    },
+    {
+      "nameSr": "Završni ispit (finalna odbrana projekta pred komisijom)",
+      "nameEn": "Final exam (project defense)",
+      "points": "0 – 30"
+    }
+  ],
+  "outcomes": [
+    {
+      "id": "I-1",
+      "text": "Analizira i kritički vrednuje teorijske i istorijske aspekte arhitekture unutrašnjih prostora."
+    },
+    {
+      "id": "I-2",
+      "text": "Primenjuje principe kompozicije, svetla, boje i percepcije u stvaranju kvalitetnog prostornog doživljaja."
+    },
+    {
+      "id": "I-3",
+      "text": "Samostalno vodi proces projektovanja od analize i koncepta do razrade idejnog rešenja."
+    },
+    {
+      "id": "I-4",
+      "text": "Projektuje prostore koji su ergonomski optimizovani, udobni i pristupačni za sve korisnike."
+    },
+    {
+      "id": "I-5",
+      "text": "Analizira, bira i kombinuje materijale na osnovu tehničkih, estetskih i ekoloških svojstava."
+    },
+    {
+      "id": "I-6",
+      "text": "Razume i integriše osnovne tehničke sisteme (HVAC, elektro, akustika) i razvija arhitektonske detalje."
+    },
+    {
+      "id": "I-7",
+      "text": "Koristi napredne digitalne alate, uključujući BIM i AI, za projektovanje, analizu i vizuelizaciju."
+    },
+    {
+      "id": "I-8",
+      "text": "Prezentuje i argumentuje sopstvena rešenja i razume osnove profesionalne prakse i zakonske regulative."
+    }
+  ],
+  "weeks": [
+    {
+      "w": 1,
+      "title": "Uvod u arhitekturu unutrašnjih prostora",
+      "topics": "Definicija, obim i istorijski razvoj discipline; odnos enterijera, arhitekture i dizajna; ključni pokreti i teoretičari.",
+      "outcomes": "I-1"
+    },
+    {
+      "w": 2,
+      "title": "Fenomenologija i percepcija prostora",
+      "topics": "Čulna percepcija (vizuelna, taktilna, auditivna), mesto, atmosfera, genius loci i psihologija prostora.",
+      "outcomes": "I-1, I-2"
+    },
+    {
+      "w": 3,
+      "title": "Metodologija projektovanja enterijera",
+      "topics": "Od istraživanja i programskog zadatka do koncepta; User-Centered Design, konceptualni dijagrami i narativ.",
+      "outcomes": "I-3"
+    },
+    {
+      "w": 4,
+      "title": "Osnovni elementi i principi kompozicije",
+      "topics": "Tačka, linija, ravan, volumen, tekstura; ritam, balans, hijerarhija, proporcija, Zlatni presek i Modulor.",
+      "outcomes": "I-2"
+    },
+    {
+      "w": 5,
+      "title": "Svetlo i boja u enterijeru",
+      "topics": "Prirodno i veštačko osvetljenje, teorija boje, psihološki i fiziološki uticaj, svetlosni i hromatski scenariji.",
+      "outcomes": "I-2, I-4"
+    },
+    {
+      "w": 6,
+      "title": "Materijalizacija 1: Tradicionalni i prirodni materijali",
+      "topics": "Drvo, kamen, opeka, tekstil: svojstva, obrada, održivost, taktilnost i senzorni kvaliteti materijala.",
+      "outcomes": "I-5"
+    },
+    {
+      "w": 7,
+      "title": "Materijalizacija 2: Savremeni i inovativni materijali",
+      "topics": "Metali, staklo, polimeri, kompoziti, pametni materijali (Smart Materials) i cirkularna ekonomija.",
+      "outcomes": "I-5"
+    },
+    {
+      "w": 8,
+      "title": "Prvi parcijalni ispit / Prezentacija idejnog rešenja",
+      "topics": "Provera teorijskih znanja i javna pin-up prezentacija konceptualne faze semestralnog projekta.",
+      "outcomes": "I-1–I-3",
+      "milestone": true
+    },
+    {
+      "w": 9,
+      "title": "Ergonomija, antropometrija i univerzalni dizajn",
+      "topics": "Projektovanje prema ljudskoj meri (Neufert), principi pristupačnosti za sve korisnike i dizajn nameštaja.",
+      "outcomes": "I-4"
+    },
+    {
+      "w": 10,
+      "title": "Tehničke instalacije i akustika u enterijeru",
+      "topics": "Integracija grejanja, ventilacije i klimatizacije (HVAC), elektro i vodovodnih instalacija i akustike prostora.",
+      "outcomes": "I-6"
+    },
+    {
+      "w": 11,
+      "title": "Arhitektonski detalj u enterijeru",
+      "topics": "Konstruktivni sklopovi i veze različitih materijala; razrada karakterističnih detalja podova, zidova, plafona i stolarije.",
+      "outcomes": "I-6"
+    },
+    {
+      "w": 12,
+      "title": "Digitalni alati i vizuelizacija",
+      "topics": "BIM za enterijere (Revit/ArchiCAD), 3D modelovanje, fotorealistična vizuelizacija (V-Ray, Enscape) i priprema za štampu.",
+      "outcomes": "I-7"
+    },
+    {
+      "w": 13,
+      "title": "Veštačka inteligencija (AI) u dizajnu enterijera",
+      "topics": "AI alati za generisanje koncepata, optimizaciju prostornog plana i selekciju materijala; etička pitanja struke.",
+      "outcomes": "I-7, I-8"
+    },
+    {
+      "w": 14,
+      "title": "Profesionalna praksa i zakonska regulativa",
+      "topics": "Odnos sa klijentom, vođenje projekta, tehnička regulativa i BAS standardi u BiH, izrada predmera i predračuna.",
+      "outcomes": "I-8"
+    },
+    {
+      "w": 15,
+      "title": "Finalna prezentacija i odbrana projekta",
+      "topics": "Predaja i javna odbrana kompletnog projekta arhitekture unutrašnjeg prostora pred komisijom.",
+      "outcomes": "I-1–I-8",
+      "milestone": true
+    }
+  ],
+  "projectStages": [
+    {
+      "id": "01",
+      "name": "01 — Analiza prostora, korisnika i atmosfere",
+      "desc": "Snimak postojećeg stanja, čulna i fenomenološka analiza, programski zadatak i inicijalni dijagram odnosa."
+    },
+    {
+      "id": "02",
+      "name": "02 — Koncept i idejno rešenje (Parcijalni I)",
+      "desc": "Jasno razdvajanje glavnog koncepta od pojedinačnih ideja; prostorna organizacija, kretanje i svetlosni scenario."
+    },
+    {
+      "id": "03",
+      "name": "03 — Materijalna tabla i ergonomska provera",
+      "desc": "Izbor prirodnih i savremenih materijala (taktilnost, akustika, održivost) i provera mera po Neufertu i univerzalnom dizajnu."
+    },
+    {
+      "id": "04",
+      "name": "04 — Arhitektonski detalji i instalacije",
+      "desc": "Karakteristični preseci i spojevi materijala (pod–zid–plafon–stolarija) u razmeri 1:20 / 1:10 uz integraciju rasvete i instalacija."
+    },
+    {
+      "id": "05",
+      "name": "05 — Finalna prezentacija i odbrana",
+      "desc": "Kompletna tehnička dokumentacija, fotorealistični prikazi, fizički uzorci/maketa i usmena odbrana."
+    }
+  ],
+  "literaturePrimary": [
+    {
+      "author": "Ching, F. D., & Binggeli, C. (2018)",
+      "title": "Interior Design Illustrated",
+      "pub": "John Wiley & Sons"
+    },
+    {
+      "author": "Pile, J. F. (2005)",
+      "title": "A History of Interior Design",
+      "pub": "Laurence King Publishing"
+    },
+    {
+      "author": "Neufert, E. (2019)",
+      "title": "Architects’ Data",
+      "pub": "John Wiley & Sons"
+    },
+    {
+      "author": "Zumthor, P. (1988 / 2003)",
+      "title": "Thinking Architecture / Misliti arhitekturu",
+      "pub": "Birkhäuser / AGM, Zagreb"
+    },
+    {
+      "author": "Taylor, M., & Preston, J. (2006)",
+      "title": "Intimus: Interior Design Theory Reader",
+      "pub": "John Wiley & Sons"
+    },
+    {
+      "author": "Merleau-Ponty, M. (1990)",
+      "title": "Fenomenologija percepcije",
+      "pub": "Veselin Masleša, Sarajevo (izvod predmeta)"
+    }
+  ],
+  "literatureSecondary": [
+    {
+      "author": "Pallasmaa, J. (2024)",
+      "title": "The Eyes of the Skin: Architecture and the Senses",
+      "pub": "John Wiley & Sons"
+    },
+    {
+      "author": "Bachelard, G. (1994 / 2000)",
+      "title": "The Poetics of Space / Poetika prostora",
+      "pub": "Beacon Press / Ceres, Zagreb"
+    },
+    {
+      "author": "McDonough, W., & Braungart, M. (2010)",
+      "title": "Cradle to Cradle: Remaking the Way We Make Things",
+      "pub": "North Point Press"
+    },
+    {
+      "author": "Frampton, K. (2004)",
+      "title": "Moderna arhitektura: kritička istorija",
+      "pub": "Orion, Beograd (izvod predmeta)"
+    },
+    {
+      "author": "Thaler, W., Mrduljaš, M., & Kulić, V. (2025)",
+      "title": "Modernism In-Between: The Mediatory Architectures of Socialist Yugoslavia",
+      "pub": "Jovis"
+    },
+    {
+      "author": "Regulativa BiH",
+      "title": "Zakon o prostornom uređenju i građenju i BAS tehnički standardi",
+      "pub": "Bosna i Hercegovina"
+    }
+  ],
+  "ideas": [
+    {
+      "tag": "Čulni ogled",
+      "title": "Svetlosna kutija u razmeri 1:20",
+      "desc": "Ispitivanje prirodnog svetla, senke i refleksije različitih materijala (gips, drvo, metal) u fizičkoj maketi pre digitalnog rendera."
+    },
+    {
+      "tag": "Kontejner / mikro-prostor",
+      "title": "Transformabilni enterijer u 15 m²",
+      "desc": "Projektovanje fiksnih i pokretnih elemenata (rad, odmor, skladištenje) u strogo ograničenom modulu."
+    },
+    {
+      "tag": "Psihologija prostora",
+      "title": "Karta tišine i buke u enterijeru",
+      "desc": "Analiza akustičnog komfora i taktilnih prelaza između javnih i intimnih zona jednog objekta."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+name: "Predaja faze projekta / Project stage sharing"
+description: "Podeli javni napredak, crtež ili link ka fazi semestralnog projekta / Share public project stage progress"
+title: "[Projekat] "
+labels: ["projekat"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Napomena:** Sve što priložite u ovom obrascu je javno vidljivo na GitHub-u. Ovo je otvorena projektna platforma za pregled i konsultacije, ne zamena za zvaničnu predaju i ocenjivanje na DL platformi fakulteta.
+  - type: dropdown
+    id: faza
+    attributes:
+      label: "Faza projekta / Project stage"
+      options:
+        - "01 — Analiza prostora, korisnika i atmosfere"
+        - "02 — Koncept i idejno rešenje (Parcijalni I)"
+        - "03 — Materijalna tabla i ergonomska provera"
+        - "04 — Arhitektonski detalji i instalacije"
+        - "05 — Finalna prezentacija i odbrana"
+    validations:
+      required: true
+  - type: input
+    id: indeks
+    attributes:
+      label: "Broj indeksa (ili dogovoreni potpis)"
+      placeholder: "npr. I-1654/24"
+    validations:
+      required: true
+  - type: textarea
+    id: opis
+    attributes:
+      label: "Opis faze, odluke i pitanje za konsultacije"
+      description: "Kratko objasnite šta je urađeno, koju razmeru/alat ste koristili i na šta tražite povratnu informaciju. Ovde prevucite slike ili priložite link."
+    validations:
+      required: true
+  - type: checkboxes
+    id: saglasnost
+    attributes:
+      label: "Provera privatnosti"
+      options:
+        - label: "Uklonio/la sam privatne kontakte (telefon, privatni mejl) i imam pravo da javno podelim ovaj prilog."
+          required: true

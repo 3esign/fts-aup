@@ -1,0 +1,10 @@
+{
+  "name": "fts-aup",
+  "private": true,
+  "type": "module",
+  "description": "Arhitektura Unutrašnjih Prostora — FTS Univerzitet u Travniku (zero-dependency GitHub Pages course site)",
+  "scripts": {
+    "build": "node tools/build.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}
